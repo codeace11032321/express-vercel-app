@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/express.js",
+        "use": "@vercel/node"
+      }
+    ]
+  }
