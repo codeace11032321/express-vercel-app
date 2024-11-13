@@ -11,3 +11,5 @@ app.get('/', (req, res) => {
 
 // Export the handler function for Vercel to invoke
 module.exports.handler = serverless(app);  // Wrap Express app for serverless
+
+console.log("im running");
